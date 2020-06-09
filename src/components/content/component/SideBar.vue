@@ -32,7 +32,7 @@ export default {
   padding-left: 12px;
 }
 .sidebar {
-  width: 100%;
+  width: 270px;
   height: 567px;
   border-radius: 3px;
   border: solid 1px #ebf5ff;

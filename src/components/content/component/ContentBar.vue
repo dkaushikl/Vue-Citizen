@@ -1,5 +1,5 @@
-<template>
-  <div class="row">
+z`<template>
+  <div class="row pr-192">
     <div class="col-md-12 pb-30">
       <p class="profile-title mb-0">
         Tania Sethi
@@ -70,7 +70,11 @@
             <div class="col-md-12 px-0">
               <div role="tablist">
                 <b-card no-body class="tablist-card">
-                  <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-card-header
+                    header-tag="header"
+                    class="p-1 border-0"
+                    role="tab"
+                  >
                     <b-button
                       block
                       v-b-toggle.accordion-1
@@ -101,7 +105,11 @@
                 </b-card>
 
                 <b-card no-body class="tablist-card">
-                  <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-card-header
+                    header-tag="header"
+                    class="p-1 border-0"
+                    role="tab"
+                  >
                     <b-button
                       block
                       v-b-toggle.accordion-2
@@ -127,7 +135,11 @@
                 </b-card>
 
                 <b-card no-body class="tablist-card">
-                  <b-card-header header-tag="header" class="p-1" role="tab">
+                  <b-card-header
+                    header-tag="header"
+                    class="p-1 border-0"
+                    role="tab"
+                  >
                     <b-button
                       block
                       v-b-toggle.accordion-3
@@ -146,14 +158,14 @@
                     accordion="my-accordion"
                     role="tabpanel"
                   >
-                    <b-card-body class="p-30">
+                    <b-card-body class=" px-0 pt-30 pb-30">
                       <div>
-                        <p class="sub-lable mb-0">
+                        <p class="sub-lable mb-0 pr-30 pl-30">
                           {{
                             `Initial Diagnosis & Tumor Characteristics (April – May 2015)`
                           }}
                         </p>
-                        <p class="sub-content mb-0">
+                        <p class="sub-content mb-0 pl-30 pr-30">
                           In late April 2015, Tania was diagnosed with
                           <span class="underline">
                             ER 50%, PR 50%, HER2 negative invasive ductal
@@ -166,12 +178,12 @@
                           as suspicious lung nodules), confirming a diagnosis of
                           Stage IV metastatic breast cancer.
                         </p>
-                        <p class="sub-lable mb-0">
+                        <p class="sub-lable mb-0 pr-30 pl-30">
                           Zolaldex-Based Treatment and Disease Control Until
                           First Progression (May 2015 – March 2017)
                         </p>
 
-                        <p class="sub-content mb-0">
+                        <p class="sub-content mb-0 pl-30 pr-30">
                           TREATMENTS: Tania's first set of treatments were
                           hormonal therapy-based. She was given
                           <span class="text-blue-color">Zoladex</span> from May
@@ -185,7 +197,7 @@
                             >high dose CBD / THC.</span
                           >
                         </p>
-                        <p class="sub-content mb-0 mt-3">
+                        <p class="sub-content mb-0 mt-3 pl-30 pr-30">
                           OUTCOMES: She experienced
                           <span
                             class="text-blue-color popup-model-span"
@@ -200,11 +212,11 @@
                           and she stopped the Zoladex-based treatment. On May
                           12, 2017, she received her comprehensive lab results.
                         </p>
-                        <p class="sub-lable mb-0">
+                        <p class="sub-lable mb-0 pr-30 pl-30">
                           Subsequent Chemotherapy-Based Treatments and Complete
                           Response (March 2017 – June 2017)
                         </p>
-                        <p class="sub-content mb-0">
+                        <p class="sub-content mb-0 pl-30 pr-30">
                           TREATMENTS: After discontinuing Zoladex due to
                           progression, she was started on chemotherapy-based
                           regimens. First, she started
@@ -227,7 +239,7 @@
                             >Denosumab</span
                           >.
                         </p>
-                        <p class="sub-content mb-0 mt-3 pb-0">
+                        <p class="sub-content mb-0 mt-3 pb-0 pl-30 pr-30">
                           OUTCOMES: In late March 2017, Tania was treated by
                           paracentesis and a catheter for
                           <span
@@ -779,6 +791,9 @@ export default {
 }
 </script>
 <style scoped>
+.pr-192 {
+  padding-right: 192px;
+}
 .color-muted {
   color: #8899a6;
 }
@@ -806,8 +821,14 @@ export default {
 .pb-30 {
   padding-bottom: 30px;
 }
+.pt-30 {
+  padding-top: 30px;
+}
 .pl-30 {
   padding-left: 30px;
+}
+.pr-30 {
+  padding-right: 30px;
 }
 .pl-60 {
   padding-left: 60px;
@@ -874,7 +895,8 @@ export default {
   color: #616161;
   font-size: 16px;
   font-weight: 500;
-  padding-bottom: 22px;
+  margin-bottom: 22px;
+  background-color: #f5f5f5;
 }
 .sub-content {
   font-size: 16px;

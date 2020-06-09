@@ -37,7 +37,6 @@ export default {
 .slash {
   width: 7px;
   height: 20px;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
   font-stretch: normal;
@@ -49,7 +48,6 @@ export default {
 .navigation-title {
   width: 52px;
   height: 18px;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;

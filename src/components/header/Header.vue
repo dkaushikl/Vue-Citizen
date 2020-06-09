@@ -7,8 +7,19 @@
         <img src="./../../assets/logo.png" alt="Ciitizen" class="logo" />
         <p class="mb-0 font-size-20 site-title">Ciitizen</p>
       </div>
-      <div>
-        <input type="text" placeholder="serch" class="serch-box" />
+      <div class="search-wrapper  pl-4">
+        <div class="search">
+          <img
+            src="./../../assets/search.png"
+            alt="search"
+            class="search-icon"
+          />
+          <input
+            type="search"
+            placeholder="Search"
+            class="search-textbox pl-3"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -39,11 +50,36 @@ export default {
   letter-spacing: normal;
   color: #1a98e8;
 }
-
-.serch-box {
+.search-wrapper {
   width: 301px;
   height: 44px;
+  margin-right: 192px;
   border-radius: 24px;
   background-color: #eeeeee;
+}
+.search {
+  height: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center flex-start;
+  align-items: center;
+  flex: 1 1 0%;
+}
+.search-icon {
+  height: 15px;
+  width: 15px;
+}
+.search-textbox {
+  font-size: 16px;
+  border: none;
+  background-color: #eeeeee;
+  color: #6d6d6d;
+  height: 14px;
+  width: 100%;
+  padding-right: 8px;
+}
+.search-textbox:focus {
+  outline-width: 0px;
 }
 </style>

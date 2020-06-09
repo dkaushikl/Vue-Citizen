@@ -6,8 +6,8 @@
       </div>
     </div>
     <div class="row mx-0 pl-15">
-      <div class="col-md-4 pr-45"><SideBar /></div>
-      <div class="col-md-8 pl-45"><ContentBar /></div>
+      <div class="col-md-3 pr-45"><SideBar /></div>
+      <div class="col-md-9 pl-45"><ContentBar /></div>
     </div>
   </div>
 </template>
