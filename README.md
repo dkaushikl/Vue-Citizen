@@ -1,4 +1,4 @@
-# ciitizen
+# citizen
 
 ## Project setup
 ```
